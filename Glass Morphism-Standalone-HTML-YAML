@@ -1,0 +1,13 @@
+- glassMorphismHTML-Standalone:
+    Control: HtmlViewer@2.1.0
+    Properties:
+      Font: =Font.'Open Sans'
+      Height: =210
+      HtmlText: "=\"<div style='\r\nwidth: \"& Self.Width-31 &\"px; \r\nheight: \"& Self.Height-31 &\"px;\r\nmargin: 15px;\r\nbackground: linear-gradient(135deg, rgba(255,255,255, 0.5), rgba(255, 255, 255, 0.2));\r\nborder-radius: 40px 40px 40px 40px;\r\nbackdrop-filter: blur(5px);\r\nbox-shadow: inset 0px 0px 0px 0px rgba(255,255,255, 0.5), \r\n            inset 2px 2px 0px 0px rgba(255, 255, 255, 0.2),\r\n            0px 4px 16px rgba(0, 0, 0, 0.15); \r\n            \r\n            \r\n'></div>\""
+      PaddingBottom: =0
+      PaddingLeft: =0
+      PaddingRight: =0
+      PaddingTop: =0
+      Width: =338
+      X: =429
+      Y: =288
