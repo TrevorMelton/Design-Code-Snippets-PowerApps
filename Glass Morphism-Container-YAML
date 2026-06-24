@@ -1,0 +1,23 @@
+- glassMorphismContainer:
+    Control: GroupContainer@1.5.0
+    Variant: ManualLayout
+    Properties:
+      DropShadow: =DropShadow.Regular
+      RadiusBottomLeft: =Self.RadiusTopLeft
+      RadiusBottomRight: =Self.RadiusTopLeft
+      RadiusTopLeft: =40
+      RadiusTopRight: =Self.RadiusTopLeft
+      X: =515
+      Y: =211
+    Children:
+      - glassMorphismHTML-Container:
+          Control: HtmlViewer@2.1.0
+          Properties:
+            Font: =Font.'Open Sans'
+            Height: =Parent.Height+1
+            HtmlText: "=\"<div style='\r\nwidth: \"& Self.Width &\"px; \r\nheight: \"& Self.Height-1 &\"px;\r\nmargin: 0px;\r\nbackground: linear-gradient(135deg, rgba(255,255,255, 0.5), rgba(255, 255, 255, 0.2));\r\nborder-radius: \"& Parent.RadiusTopLeft &\"px;\r\nbackdrop-filter: blur(5px);\r\nbox-shadow: inset 0px 0px 0px 0px rgba(255,255,255, 0.5), \r\n            inset 2.5px 2.5px 0px 0px rgba(255, 255, 255, 0.2);\r\n            \r\n            \r\n'></div>\""
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Width: =Parent.Width
